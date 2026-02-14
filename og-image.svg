@@ -1,0 +1,66 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0f172a"/>
+      <stop offset="50%" style="stop-color:#1e3a5f"/>
+      <stop offset="100%" style="stop-color:#0f172a"/>
+    </linearGradient>
+    <linearGradient id="logo" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#3B82F6"/>
+      <stop offset="100%" style="stop-color:#14B8A6"/>
+    </linearGradient>
+    <radialGradient id="glow1" cx="85%" cy="15%" r="30%">
+      <stop offset="0%" style="stop-color:rgba(59,130,246,0.15)"/>
+      <stop offset="100%" style="stop-color:rgba(59,130,246,0)"/>
+    </radialGradient>
+    <radialGradient id="glow2" cx="15%" cy="85%" r="25%">
+      <stop offset="0%" style="stop-color:rgba(20,184,166,0.15)"/>
+      <stop offset="100%" style="stop-color:rgba(20,184,166,0)"/>
+    </radialGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect width="1200" height="630" fill="url(#glow1)"/>
+  <rect width="1200" height="630" fill="url(#glow2)"/>
+  
+  <!-- Grid pattern -->
+  <pattern id="grid" width="60" height="60" patternUnits="userSpaceOnUse">
+    <path d="M 60 0 L 0 0 0 60" fill="none" stroke="rgba(255,255,255,0.03)" stroke-width="1"/>
+  </pattern>
+  <rect width="1200" height="630" fill="url(#grid)"/>
+  
+  <!-- Logo icon -->
+  <rect x="552" y="120" width="96" height="96" rx="24" fill="url(#logo)"/>
+  <circle cx="600" cy="168" r="24" fill="none" stroke="white" stroke-width="4"/>
+  <circle cx="600" cy="168" r="8" fill="white"/>
+  <line x1="600" y1="140" x2="600" y2="148" stroke="white" stroke-width="3" stroke-linecap="round"/>
+  <line x1="600" y1="188" x2="600" y2="196" stroke="white" stroke-width="3" stroke-linecap="round"/>
+  <line x1="572" y1="168" x2="580" y2="168" stroke="white" stroke-width="3" stroke-linecap="round"/>
+  <line x1="620" y1="168" x2="628" y2="168" stroke="white" stroke-width="3" stroke-linecap="round"/>
+  
+  <!-- Title -->
+  <text x="600" y="280" text-anchor="middle" font-family="system-ui,-apple-system,Segoe UI,Roboto,sans-serif" font-size="64" font-weight="800" fill="white" letter-spacing="-2">AI Tools Hub</text>
+  
+  <!-- Subtitle -->
+  <text x="600" y="330" text-anchor="middle" font-family="system-ui,-apple-system,Segoe UI,Roboto,sans-serif" font-size="26" fill="rgba(148,197,248,0.8)">Discover, Compare &amp; Access 200+ AI Tools</text>
+  
+  <!-- Tags -->
+  <rect x="200" y="380" width="160" height="44" rx="12" fill="rgba(255,255,255,0.08)" stroke="rgba(255,255,255,0.12)" stroke-width="1"/>
+  <text x="280" y="408" text-anchor="middle" font-family="system-ui,sans-serif" font-size="16" fill="rgba(255,255,255,0.8)">🛠️ 200+ Tools</text>
+  
+  <rect x="380" y="380" width="180" height="44" rx="12" fill="rgba(255,255,255,0.08)" stroke="rgba(255,255,255,0.12)" stroke-width="1"/>
+  <text x="470" y="408" text-anchor="middle" font-family="system-ui,sans-serif" font-size="16" fill="rgba(255,255,255,0.8)">📂 11 Categories</text>
+  
+  <rect x="580" y="380" width="170" height="44" rx="12" fill="rgba(255,255,255,0.08)" stroke="rgba(255,255,255,0.12)" stroke-width="1"/>
+  <text x="665" y="408" text-anchor="middle" font-family="system-ui,sans-serif" font-size="16" fill="rgba(255,255,255,0.8)">🔓 Open Source</text>
+  
+  <rect x="770" y="380" width="210" height="44" rx="12" fill="rgba(255,255,255,0.08)" stroke="rgba(255,255,255,0.12)" stroke-width="1"/>
+  <text x="875" y="408" text-anchor="middle" font-family="system-ui,sans-serif" font-size="16" fill="rgba(255,255,255,0.8)">⭐ Community Driven</text>
+  
+  <!-- Bottom URL -->
+  <text x="600" y="580" text-anchor="middle" font-family="system-ui,sans-serif" font-size="16" fill="rgba(148,197,248,0.4)">aitoolshub.com</text>
+  
+  <!-- Decorative border at bottom -->
+  <rect x="0" y="620" width="1200" height="10" fill="url(#logo)" opacity="0.6"/>
+</svg>
